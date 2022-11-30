@@ -8,8 +8,9 @@ To access the app, simply use your Google account. After a short wait, from this
 In addition to the chat, the app has the following additional functions indicated in red in the photo:
 - Sign Out (1)
 - Clear chat history (2)
+- Filter users (3)
 
 The app is also web responsive, allowing it to be used even on your smartphone.
 
-![image](https://user-images.githubusercontent.com/101013229/193299971-be6a6a1b-6e63-4e9f-8675-8d5927020325.png)
+![image](https://user-images.githubusercontent.com/101013229/204800092-5fcfad76-118d-4628-9559-fb0a1dddc5fa.png)
 
