@@ -20,7 +20,6 @@ const firebaseApp = firebase.initializeApp(firebaseConfig);
  const db = firebaseApp.firestore();
  const auth = firebaseApp.auth();
  const provider = new firebase.auth.GoogleAuthProvider();
- const storage = firebase.storage().ref('images'); 
  const createTimestamp = firebase.firestore.FieldValue.serverTimestamp; 
  const serverTimestamp = firebase.database.ServerValue.TIMESTAMP;
 
@@ -28,7 +27,6 @@ const firebaseApp = firebase.initializeApp(firebaseConfig);
     db,
     auth,
     provider,
-    storage,
     createTimestamp,
     serverTimestamp
  }
