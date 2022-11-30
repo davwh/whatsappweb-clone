@@ -20,7 +20,6 @@ import ScrollableFeed from 'react-scrollable-feed';
 
 
 export default function Chat({ user, page }) {
-  const [image] = React.useState(null);
   const [input, setInput] = React.useState("");
   const [isDeleting, setDeleting] = React.useState(false);
   const [openMenu, setOpenMenu] = React.useState(null);
@@ -121,13 +120,6 @@ export default function Chat({ user, page }) {
         </div>
         
         <div className="chat__header--right">
-            <input
-              id="image"
-              style={{ display: "none" }}
-              accept="image/*"
-              type="file"
-              />
-
             <div className="chat__header--right--icons">
               <SearchOutlinedIcon className="searchicon-right" ></SearchOutlinedIcon>
               <MoreVert className="verticaldots-right" onClick={(event) => setOpenMenu(event.currentTarget)}/>
@@ -164,7 +156,6 @@ export default function Chat({ user, page }) {
         input={input}
         onChange={onChange}
         sendMessage={sendMessage}
-        image={image}
         user={user}
         room={room}
         roomId={roomId}

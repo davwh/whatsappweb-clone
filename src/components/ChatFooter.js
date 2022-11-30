@@ -59,7 +59,7 @@ export default function ChatFooter({
         onClick={
         input.trim() || (input === "")
         ? sendMessage
-        : sendMessage
+        : false
         }
         type="submit"
         className="send__btn"
